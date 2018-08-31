@@ -11,23 +11,18 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* Ph.D in Computer Science, Rochester University, Aug.2023 - Present
+* M.S. in Computer Science, Zhejiang University,  Aug.2015 - Mar.2018
+* B.S. in Computer Science, Southeast University, Aug.2011 - Jun.2015
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Research Intern at Tencent AI Lab
+  * Mentor: [Lin Ma](http://www.ee.cuhk.edu.hk/~lma/)
+  * Topic: Temporal Action Localization
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -35,14 +30,15 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+ -->
 
-Publications
+Selected Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -53,7 +49,8 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+ -->  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Journal Reviewer: <i> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </i>

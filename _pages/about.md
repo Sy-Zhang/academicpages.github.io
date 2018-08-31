@@ -8,8 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a research intern at Tencent AI Lab. Before that, I got my Master degree from Digital media Computing & Design Lab (DCD), College of Computer Science, Zhejiang University, supervised by Prof. Jun Xiao. I achieved my Bachelor's degree in Computer Science from Southeast University in 2015.
-
-My research topics include Computer Vision and Deep Learning. Specifically on Action Recognition and Detection.
-
-I will be a Ph.D. student in the Computer Science Department in University of Rochester starting from Fall 2018.
+I am a 1st-year PhD student in the Computer Science Department in University of Rochester, advised by Prof. [Jiebo Luo](http://www.cs.rochester.edu/u/jluo/). Before that, I got my bachelor's degree from Southeast University and my master degree from Zhejiang University supervised by Prof. [Jun Xiao](http://person.zju.edu.cn/en/junx). Currently my research focus on action detection.

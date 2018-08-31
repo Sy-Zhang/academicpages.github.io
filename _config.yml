@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Songyang Zhang"
 title_separator          : "-"
 name                     : &name "Songyang Zhang"
-description              : &description "Research Intern at Tencent AI Lab"
+description              : &description "PhD student at U of R"
 url                      : https://sy-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Sy-Zhang/Sy-Zhang.github.io"
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Songyang Zhang"
   avatar           : "SongyangZhang.png"
-  bio              : "Research Intern at Tencent AI Lab"
+  bio              : "PhD student in the department of CS at U of R"
   location         : "Shenzhen, China"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=80LwB0cAAAAJ"
-  email            : "songyang.zhang@rochester.edu"
+  email            : "szhang83@ur.rochester.edu"
   uri              :
   bitbucket        :
   codepen          :
