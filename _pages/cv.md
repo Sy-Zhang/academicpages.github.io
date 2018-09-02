@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, Rochester University, Aug.2023 - Present
+* Ph.D in Computer Science, Rochester University, Aug.2018 - Present
 * M.S. in Computer Science, Zhejiang University,  Aug.2015 - Mar.2018
 * B.S. in Computer Science, Southeast University, Aug.2011 - Jun.2015
 
