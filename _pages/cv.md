@@ -17,10 +17,7 @@ Education
 
 Work experience
 ======
-* Summer 2018: Research Intern at Tencent AI Lab
-  * Mentor: [Lin Ma](http://www.ee.cuhk.edu.hk/~lma/)
-  * Topic: Temporal Action Localization
-
+* Research Intern, Tencent AI Lab, Shenzhen, China, Mar.2018-Jul.2018
   
 <!-- Skills
 ======
