@@ -37,7 +37,7 @@ Selected Publications
 
 Courses
 ======
-CSC400 [download mini proposal here](http://academicpages.github.io/files/miniproposal.pdf)
+CSC400 [download mini proposal here](http://sy-zhang.github.io/files/miniproposal.pdf)
 
 Professional Services
 ======
