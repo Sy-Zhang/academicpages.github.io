@@ -34,7 +34,10 @@ Selected Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Courses
+======
+CSC400 [download mini proposal here](http://academicpages.github.io/files/miniproposal.pdf)
 
 Professional Services
 ======
