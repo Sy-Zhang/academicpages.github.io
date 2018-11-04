@@ -29,7 +29,7 @@ Work experience
 	* Research Intern
 	* Temporal Action Localization
 
-Selected Publications
+Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
