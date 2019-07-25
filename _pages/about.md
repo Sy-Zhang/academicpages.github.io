@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year PhD student in the Computer Science Department in University of Rochester, advised by Prof. [Jiebo Luo](http://www.cs.rochester.edu/u/jluo/). Before that, I got my bachelor's degree from Southeast University and my master degree from Zhejiang University supervised by Prof. [Jun Xiao](http://person.zju.edu.cn/en/junx). Currently my research focus on temporal action localization.
+I am a first year PhD student in the Computer Science Department in University of Rochester, advised by Prof. [Jiebo Luo](http://www.cs.rochester.edu/u/jluo/). Before that, I got my bachelor's degree from Southeast University and my master degree from Zhejiang University supervised by Prof. [Jun Xiao](http://person.zju.edu.cn/en/junx). Currently my research focus on moment localization via natural language.
 
 {% include base_path %}
 
@@ -25,6 +25,9 @@ Education
 
 Work experience
 ======
+* **Microsoft Research Asia, Beijing, China, (May 2019 - Aug 2019)**
+	* Research Intern
+	* Moment Localization via Natural Language
 * **Tencent AI Lab, Shenzhen, China, (Mar 2018 - Jul 2018)**
 	* Research Intern
 	* Temporal Action Localization
