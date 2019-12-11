@@ -40,10 +40,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Courses
-======
-CSC400 [download mini proposal here](http://sy-zhang.github.io/files/miniproposal.pdf)
-
 Professional Services
 ======
 * Journal Reviewer: <i> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </i>
