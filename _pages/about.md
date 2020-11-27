@@ -39,10 +39,10 @@ Work experience
 
 Publications
 ======
-**Songyang Zhang**, Houwen Peng, Jianlong Fu, Jiebo Luo. Learning 2D Temporal Localization Networks for Moment Localization with Natural Language. AAAI 2020
-  <!-- <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+* **Songyang Zhang**, Houwen Peng, Jianlong Fu, Jiebo Luo. Learning 2D Temporal Localization Networks for Moment Localization with Natural Language. AAAI 2020
+* **Songyang Zhang**, Jinsong Su, Jiebo Luo. Exploiting Temporal Relationships in Video MomentLocalization with Natural Language. MM 2019
+* **Songyang Zhang**, Yang Yang, Jun Xiao, Xiaoming Liu, Yi Yang, Di Xie, and Yueting Zhuang. Fusing Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks. TMM
+* **Songyang Zhang**, Xiaoming Liu, Jun Xiao. On Geometric Features for Skeleton-Based Action Recognition Using Multilayer LSTM Networks. WACV 2017
 
 Professional Services
 ======
