@@ -39,9 +39,10 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+**Songyang Zhang**, Houwen Peng, Jianlong Fu, Jiebo Luo. Learning 2D Temporal Localization Networks for Moment Localization with Natural Language. AAAI 2020
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 Professional Services
 ======
