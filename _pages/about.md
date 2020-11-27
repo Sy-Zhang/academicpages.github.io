@@ -39,8 +39,11 @@ Work experience
 
 Publications
 ======
+* Li Sun, Haoqi Zhang, **Songyang Zhang**, Jiebo Luo, “Content-based Analysis of the Cultural Differences between TikTok and Douyin”, IEEE Big Data, 2020
+* **Songyang Zhang**, Houwen Peng, Le Yang, Jianlong Fu, Jiebo Luo. Learning Sparse 2D Temporal Adjacent Networks for Temporal Action Localization. ICCV'20 HACS Challenge, Technical Report
 * **Songyang Zhang**, Houwen Peng, Jianlong Fu, Jiebo Luo. Learning 2D Temporal Localization Networks for Moment Localization with Natural Language. AAAI 2020
 * **Songyang Zhang**, Jinsong Su, Jiebo Luo. Exploiting Temporal Relationships in Video MomentLocalization with Natural Language. MM 2019
+* Jiageng Feng, **Songyang Zhang**, Jun Xiao. Explorations of skeleton features for LSTM-based action recognition. MTAP
 * **Songyang Zhang**, Yang Yang, Jun Xiao, Xiaoming Liu, Yi Yang, Di Xie, and Yueting Zhuang. Fusing Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks. TMM
 * **Songyang Zhang**, Xiaoming Liu, Jun Xiao. On Geometric Features for Skeleton-Based Action Recognition Using Multilayer LSTM Networks. WACV 2017
 
