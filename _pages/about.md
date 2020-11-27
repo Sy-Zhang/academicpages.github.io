@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year PhD student in the Computer Science Department in University of Rochester, advised by Prof. [Jiebo Luo](http://www.cs.rochester.edu/u/jluo/). Before that, I got my bachelor's degree from Southeast University and my master degree from Zhejiang University supervised by Prof. [Jun Xiao](http://person.zju.edu.cn/en/junx). Currently my research focus on moment localization via natural language.
+I am a third year PhD student in the Computer Science Department in University of Rochester, advised by Prof. [Jiebo Luo](http://www.cs.rochester.edu/u/jluo/). Before that, I got my bachelor's degree from Southeast University and my master degree from Zhejiang University supervised by Prof. [Jun Xiao](http://person.zju.edu.cn/en/junx). Currently my research focus on moment localization via natural language.
 
 My CV is [here](http://sy-zhang.github.io/files/CV.pdf).
 
@@ -27,6 +27,9 @@ Education
 
 Work experience
 ======
+* **Tencent AI Lab, Seattle, USA, (May 2020 - Aug 2020)**
+	* Research Intern
+	* Unsupervised Constituency Parsing
 * **Microsoft Research Asia, Beijing, China, (May 2019 - Aug 2019)**
 	* Research Intern
 	* Moment Localization via Natural Language
@@ -42,4 +45,4 @@ Publications
 
 Professional Services
 ======
-* Journal Reviewer: <i> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </i>
+* Journal Reviewer: <i> TPAMI, TMM, TIP, Neural Computing </i>
