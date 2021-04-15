@@ -1,0 +1,485 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Landmark Detection with DPG">
+	<meta name="author" content="Songyang Zhang">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<title>Welcome to Songyang Zhang's Homepage</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+</head>
+
+<style>
+	body {font-size: 12px;color: black}
+	html {scroll-behavior: smooth;}
+	footer {text-align: center;
+		font-weight: 300;}
+	.container {width: 100%; max-width: 70em;}
+	a.fakelink {cursor: pointer;}
+	.bibref {
+		margin-top: 2%;
+		margin-left: 2%;
+		display:none;
+		font-family: monospace;
+	}
+	td.exp_place {
+		padding-left: 2%;
+		/*font-weight: 700;*/
+		/*color: black;*/
+	}
+
+	td.exp_desc {
+		padding-left: 2%;
+		/*font-weight: 300;*/
+	}
+	td.exp_duration {
+		text-align: right;
+		/*font-weight: 300;*/
+	}
+	td.exp_logo {
+		padding-left: 7%;
+	}
+	tr.exp_item td {
+		padding-top: 1%;
+	}
+	/*a {color: black}*/
+</style>
+
+<body>
+<div class="container" style="padding-top: 80px; font-size: 12px;">
+	<div align="left">
+		<!-- <h1 class="text-center" aligh="center"> -->
+		<!-- Landmark Detection with Deep Graph Learning -->
+		<!-- </h1><br> -->
+		<img src="./images/photo/SongyangZhang.png" height="190px" style="float:left; margin-right:5%; ">
+		<h4>Songyang Zhang</h4><br />
+		PhD Student<br />
+		<!-- <a href="http://www.cs.rochester.edu/u/jluo/#VISTA/">VIStA Research Group</a><br /> -->
+		<a href="http://www.cs.rochester.edu/">Department of Computer Science</a><br />
+		<a href="http://www.rochester.edu/">University of Rochester</a>, Rochester, NY</a><br /><br />
+		Office: Wegmans Hall 3602<br />
+		Contact: <a href="mailto:szhang83@ur.rochester.edu">Email</a> &nbsp;|&nbsp;
+		<!-- <a href="https://www.linkedin.com/in/weijian-li-a3ab61aa/" >LinkedIn</a><br /> -->
+		<a href="https://github.com/Sy-Zhang">GitHub</a> &nbsp;|&nbsp;
+		<a href="https://scholar.google.com/citations?user=80LwB0cAAAAJ&hl=en">Google Scholar</a>
+	</div>
+</div>
+
+<br>
+
+
+<div class="container">
+	<h3 id="Overview" style="padding-top: 80px; margin-top: -80px;"></h3>
+
+	I am a third year PhD student in the Computer Science Department in <a href="http://www.rochester.edu">University of Rochester</a>, advised by Prof. <a href="http://www.cs.rochester.edu/u/jluo">Jiebo Luo</a>. 
+	
+	Before that, I got my bachelor’s degree from <a href="https://www.seu.edu.cn/">Southeast Univeristy</a></span> and my master degree from <a href="https://www.zju.edu.cn">Zhejiang University</a></span> supervised by Prof. <a href="https://person.zju.edu.cn/junx">Jun Xiao</a>. 
+	
+	Currently my research focus on video and language related tasks.
+
+	<br><hr>
+</div>
+
+<div class="container" style="font-size: 12px">
+	<h4 id="Education" style="padding-top: 80px; margin-top: -80px;">Education:</h4><br>
+	<p>
+		<img src="./images/education/ur.png" width="40px" height="auto" style="float:left; margin-right:3%; ">
+		<span class="edu_name"><a href="https://www.rochester.edu">University of Rochester</a></span>
+		<br />
+		<span class="edu_status">Ph.D, Computer Science, August 2018 - Present</span>
+	</p>
+	<p>
+		<img src="./images/education/zju.png" width="40px" height="auto" style="float:left; margin-right:3%; ">
+		<span class="edu_name"><a href="https://www.zju.edu.cn">Zhejiang University</a></span>
+		<br />
+		<span class="edu_status">M.S. Computer Science, September 2015 - Mar 2018</span>
+	</p>
+	<p>
+		<img src="./images/education/seu.png" width="40px" height="auto" style="float:left; margin-right:3%; ">
+		<span class="edu_name"><a href="https://www.seu.edu.cn/">Southeast Univeristy</a></span>
+		<br />
+		<span class="edu_status">B.S. Computer Sciene, August 2011 - Jun 2015</span>
+	</p>
+</div><br>
+
+
+<div class="container" style="font-size: 12px">
+	<h4 id="Projects" style="padding-top: 80px; margin-top: -80px;">Project</h4><br>
+	<!-- My current research mainly focues on video+language. I've also worked on skeleton-based action recognition. Representative works are highlighted. -->
+	<p>
+		<img src="./images/projects/naacl-21.png" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Video-aided Unsupervised Grammar Induction</font></a><br>
+		<b>Songyang Zhang</b>, Linfeng Song, Lifeng Jin, Kun Xu, Dong Yu, Jiebo Luo<br>
+		<i>NAACL 2021</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/2012.01480.pdf"> [PDF]</a>
+			<a target="_blank" href="https://github.com/Sy-Zhang/MMC-PCFG"> [Code]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{zhang2021video,<br>
+					author = {Zhang, Songyang and Song, Linfeng and Jin, Lifeng and Xu, Kun and Yu, Dong and Luo, Jiebo},<br>
+					title = {Video-aided Unsupervised Grammar Induction},<br>
+					booktitle = {NAACL},<br>
+					year = {2021}<br>
+				} 
+			</span>
+		</span>
+	</p>
+	
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/aaai-21.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Boundary Proposal Network for Two-Stage Natural Language Video Localization</font></a><br>
+		Jun Xiao Shaoning Xiao, Long Chen, <b>Songyang Zhang</b>, Wei Ji, Jian Shao, Lu Ye<br>
+		<i>AAAI 2021</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/2103.08109.pdf"> [PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{xiao2021boundary,
+					title={Boundary Proposal Network for Two-Stage Natural Language Video Localization},
+					author={Xiao, Shaoning and Chen, Long and Zhang, Songyang and Ji, Wei and Shao, Jian and Ye, Lu and Xiao, Jun},
+					booktitle={AAAI},
+					year={2021}
+				}
+			</span>
+		</span>
+	</p>
+	
+	<!-- <br />
+	<p style="clear:both">&nbsp;</p>
+	
+	<p>
+		<img src="./images/projects/tpami-20.png" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Multi-Scale 2D Temporal Adjacent Networks for Moment Localization with Natural Language</font></a><br>
+		<b>Songyang Zhang</b>, Houwen Peng, Jianlong Fu, Yijuan Lu, Jiebo Luo<br>
+		<i>arXiv 2020</i><br>
+		<span>
+			<a href="https://arxiv.org/pdf/2012.02646.pdf">[PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2020multi,<br>
+					title={Multi-Scale 2D Temporal Adjacent Networks for Moment Localization with Natural Language},<br>
+					author={Zhang, Songyang and Peng, Houwen and Fu, Jianlong and Lu, Yijuan and Luo, Jiebo},<br>
+					journal={arXiv preprint arXiv:2012.02646},<br>
+					year={2020}<br>
+				}
+			</span>
+		</span>
+	</p> -->
+
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/cikm-21.png" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Mi YouTube es Su YouTube? Analyzing the Cultures using YouTube Thumbnails of Popular Videos</font></a><br>
+		<b>Songyang Zhang</b>, Tolga Aktas, Jiebo Luo<br>		
+		<i>arXiv 2020</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/2002.00842.pdf">[PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2020mi,<br>
+					title={Mi YouTube es Su YouTube? Analyzing the Cultures using YouTube Thumbnails of Popular Videos},<br>
+					author={Zhang, Songyang and Aktas, Tolga and Luo, Jiebo},<br>
+					journal={arXiv preprint arXiv:2002.00842},<br>
+					year={2020}<br>
+				}
+			</span>
+		</span>
+	</p>
+	
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/bd-20.jpg" width="170px" height="60px" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Content-based Analysis of the Cultural Differences between TikTok and Douyin</font></a><br>
+		Li Sun, Haoqi Zhang, <b>Songyang Zhang</b>, Jiebo Luo<br>
+		<i>IEEE Big Data 2020</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/2011.01414.pdf"> [PDF]</a>
+			<a target="_blank" href="https://www.youtube.com/watch?v=0EpE4qRmOdE"> [Video]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{sun2020content, <br>
+				title={Content-based Analysis of the Cultural Differences between TikTok and Douyin},<br>
+				author={Sun, Li and Zhang, Haoqi and Zhang, Songyang and Luo, Jiebo},<br>
+				booktitle={IEEE Big Data},<br>
+				year={2020}<br>
+				}
+			</span>
+		</span>
+	</p>
+	
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/icpr-20.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Global Image Sentiment Transfer</font></a><br>
+		Jie An, Tianlang Chen, <b>Songyang Zhang</b>, Jiebo Luo<br>
+		<i>ICPR 2020</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/2006.11989.pdf"> [PDF]</a>
+			<a target="_blank" href="https://www.youtube.com/watch?v=tm8TWKXZAAU"> [Video]</a>
+			<a target="_blank" href="https://www.jiqizhixin.com/articles/2020-11-09-4"> [News]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{an2020global,<br>
+					title={Global Image Sentiment Transfer},<br>
+					author={An, Jie and Chen, Tianlang and Zhang, Songyang and Luo, Jiebo},<br>
+					booktitle={ICPR},<br>
+					year={2020}<br>
+				  }			
+			</span>
+		</span>
+	</p>
+
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/aaai-20.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Learning 2D Temporal Adjacent Networks for Moment Localization with Natural Language</font></a><br>
+		<b>Songyang Zhang</b>, Houwen Peng, Jianlong Fu, Jiebo Luo<br>
+		<i>AAAI 2020</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/abs/1912.03590"> [PDF]</a>
+			<a target="_blank" href="https://github.com/microsoft/2D-TAN"> [Code]</a>
+			<a target="_blank" href="https://mp.weixin.qq.com/s/_OTvNrUtbYaFvKlMxFXoDg"> [News]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{2DTAN_2020_AAAI,<br>
+					author = {Zhang, Songyang and Peng, Houwen and Fu, Jianlong and Luo, Jiebo},<br>
+					title = {Learning 2D Temporal Adjacent Networks forMoment Localization with Natural Language},<br>
+					booktitle = {AAAI},<br>
+					year = {2020}<br>
+				}
+			</span>
+		</span>
+		<br>
+		<font color="black" size='2px'>Learning 2D Temporal Adjacent Networks for Temporal Action Localization</font></a><br>
+		<b>Songyang Zhang</b>, Houwen Peng, Le Yang Jianlong Fu, Jiebo Luo<br>
+		<i>Technical Report, HACS Temporal Action Localization Challenge at ICCV'19 (Rank 1)</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/1912.03612.pdf"> [PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2019learning,<br>
+					title={Learning Sparse 2D Temporal Adjacent Networks for Temporal Action Localization},<br>
+					author={Zhang, Songyang and Peng, Houwen and Yang, Le and Fu, Jianlong and Luo, Jiebo},<br>
+					journal={arXiv preprint arXiv:1912.03612},<br>
+					year={2019}<br>
+				  }
+			</span>
+		</span>
+		<br>
+		<font color="black" size='2px'>Multi-Scale 2D Temporal Adjacent Networks for Moment Localization with Natural Language</font></a><br>
+		<b>Songyang Zhang</b>, Houwen Peng, Jianlong Fu, Yijuan Lu, Jiebo Luo<br>
+		<i>arXiv 2020</i>
+		<span>
+			<a href="https://arxiv.org/pdf/2012.02646.pdf">[PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2020multi,<br>
+					title={Multi-Scale 2D Temporal Adjacent Networks for Moment Localization with Natural Language},<br>
+					author={Zhang, Songyang and Peng, Houwen and Fu, Jianlong and Lu, Yijuan and Luo, Jiebo},<br>
+					journal={arXiv preprint arXiv:2012.02646},<br>
+					year={2020}<br>
+				}
+			</span>
+		</span>
+	</p>
+
+	<!-- <br />
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/iccv-19.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Learning 2D Temporal Adjacent Networks for Temporal Action Localization</font></a><br>
+		<b>Songyang Zhang</b>, Houwen Peng, Le Yang Jianlong Fu, Jiebo Luo<br>
+		<i>Technical Report, HACS Temporal Action Localization Challenge at ICCV'19 (Rank 1)</i><br>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/1912.03612.pdf"> [PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2019learning,<br>
+					title={Learning Sparse 2D Temporal Adjacent Networks for Temporal Action Localization},<br>
+					author={Zhang, Songyang and Peng, Houwen and Yang, Le and Fu, Jianlong and Luo, Jiebo},<br>
+					journal={arXiv preprint arXiv:1912.03612},<br>
+					year={2019}<br>
+				  }
+			</span>
+		</span>
+	</p> -->
+
+
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/mm-19.jpg" width="170px" height="60px" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Exploiting Temporal Relationships in Video Moment Localization with Natural Language</font></a><br>
+		<b>Songyang Zhang</b>, Jinsong Su, Jiebo Luo<br>
+		<i>ACM Multimedia 2019</i>
+		<span>
+			<a target="_blank" href="https://arxiv.org/pdf/1908.03846.pdf"> [PDF]</a>
+			<a target="_blank" href="https://github.com/Sy-Zhang/TCMN-Release"> [Code]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@inproceedings{zhang2019exploiting,<br>
+					title={Exploiting temporal relationships in video moment localization with natural language},<br>
+					author={Zhang, Songyang and Su, Jinsong and Luo, Jiebo},<br>
+					booktitle={ACM Multimedia},<br>
+					year={2019}<br>
+				  }
+			</span>
+		</span>
+	</p>
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<!-- <p>
+		<img src="./images/projects/tmm-18.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Fusing Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks</font></a><br>
+		<b>Songyang Zhang</b>,Yang Yang, Jun Xiao, Xiaoming Liu, Yi Yang, Di Xie, Yueting Zhuang<br>
+		<i>TMM 2018</i><br>
+		<span>
+			<a target="_blank" href="./files/TMM.PDF"> [PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2018fusing,<br>
+				title={Fusing geometric features for skeleton-based action recognition using multilayer LSTM networks},<br>
+				author={Zhang, Songyang and Yang, Yang and Xiao, Jun and Liu, Xiaoming and Yang, Yi and Xie, Di and Zhuang, Yueting},<br>
+				journal={IEEE Transactions on Multimedia},<br>
+				volume={20},<br>
+				number={9},<br>
+				pages={2330--2343},<br>
+				year={2018},<br>
+				publisher={IEEE}<br>
+			  }
+			</span>
+		</span>
+	</p>
+ -->
+
+	 <p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/wacv-17.png" width="170px" height="auto" padding="20px" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>On Geometric Features for Skeleton-Based Action Recognition Using Multilayer LSTM Networks</font></a><br>
+		<b>Songyang Zhang</b>, Xiaoming Liu, Jun Xiao<br>
+		<i>WACV 2017</i>
+		<span>
+			<a target="_blank" href="./files/WACV2017.pdf"> [PDF]</a>
+			<a target="_blank" href="https://github.com/Sy-Zhang/Geometric-Feature-Release"> [Code]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@InProceedings{Zhang_2017_geometric,<br>
+					author = {Zhang, Songyang and Liu, Xiaoming and Xiao, Jun},<br>
+					title = {On Geometric Features for Skeleton-Based Action Recognition Using Multilayer LSTM Networks},<br>
+					booktitle = {WACV},<br>
+					year = {2017}<br>
+					} 
+			</span>
+		</span>
+		<br>
+		<font color="black" size='2px'>Fusing Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks</font></a><br>
+		<b>Songyang Zhang</b>,Yang Yang, Jun Xiao, Xiaoming Liu, Yi Yang, Di Xie, Yueting Zhuang<br>
+		<i>TMM 2018</i>
+		<span>
+			<a target="_blank" href="./files/TMM.PDF"> [PDF]</a>
+			<a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[Bibtex]</a>
+			<span class="bibref">
+				@article{zhang2018fusing,<br>
+				title={Fusing geometric features for skeleton-based action recognition using multilayer LSTM networks},<br>
+				author={Zhang, Songyang and Yang, Yang and Xiao, Jun and Liu, Xiaoming and Yang, Yi and Xie, Di and Zhuang, Yueting},<br>
+				journal={IEEE Transactions on Multimedia},<br>
+				volume={20},<br>
+				number={9},<br>
+				pages={2330--2343},<br>
+				year={2018},<br>
+				publisher={IEEE}<br>
+			  }
+			</span>
+		</span>
+	</p>
+
+	<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+	<p>
+		<img src="./images/projects/robocup.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<font color="black" size='2px'>Robocup 3D Simulation</font></a><br>
+		Core member of SEU-Jolly Team<br>
+		<i>Robocup China Open 2014 (Rank 1), Robocup 2014 (Rank 5-8) </i><br>
+	</p>
+
+</div><br><br>
+
+<div class="container" style="font-size: 12px">
+	<h4 id="Internship" style="padding-top: 80px; margin-top: -80px;">Internship</h4><br>
+	<!-- My current research mainly focues on video+language. I've also worked on skeleton-based action recognition. Representative works are highlighted. -->
+	<p>
+		<img src="./images/internship/ms.png" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/"> Microsoft Research, Redmond, WA</a><br>
+		May 2021 - Aug 2021. Mentor: <a target="_blank" href="https://qzyou.github.io/"> Quanzeng You</a>, <a target="_blank" href="http://wangjiangb.github.io/"> Jiang Wang</a><br>
+		Project: (to be update)<br>
+	</p>
+	<p style="clear:both">&nbsp;</p>
+	<p>
+		<img src="./images/internship/tencent.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<a target="_blank" href="https://ai.tencent.com/ailab/en/index/"> Tencent AI Lab, Bellevue, WA</a><br>
+		May 2020 - Aug 2020. Mentor: <a target="_blank" href="https://freesunshine0316.github.io/">Linfeng Song</a>, 
+		<a target="_blank" href="https://lifengjin.github.io/">Lifeng Jin</a>, 
+		<a target="_blank" href="https://sites.google.com/view/kunxu/home">Kun Xu</a><br>
+		Project: Unsupervised Grammar Induction<br>
+	</p>
+	<p style="clear:both">&nbsp;</p>
+	<p>
+		<img src="./images/internship/ms.png" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"> Microsoft Research Asia, Beijing, China</a><br>
+		May 2019 - Aug 2019. Mentor: <a target="_blank" href="https://houwenpeng.com/"> Houwen Peng</a>, <a target="_blank" href="https://jianlong-fu.github.io/"> Jianlong Fu</a><br>
+		Project: Moment Localization with Natural Language<br>
+	</p>
+	<p style="clear:both">&nbsp;</p>
+	<p>
+		<img src="./images/internship/tencent.jpg" width="170px" height="auto" style="float:left; margin-right:3%; ">
+		<a target="_blank" href="https://ai.tencent.com/ailab/en/index/"> Tencent AI Lab, Shenzhen, China</a><br>
+		Mar 2018 - Aug 2018. Mentor: <a target="_blank" href="http://forestlinma.com/">Lin Ma</a>, <a target="_blank" href="https://linchaobao.github.io/">Linchao Bao</a><br>
+		Project: Temporal Action Localization<br>
+	</p>
+
+</div><br><br>
+	
+
+<div class="container" style="font-size: 12px">
+	<h4 id="Service" style="padding-top: 80px; margin-top: -80px;">Service:</h4>
+
+	Conference Reviewer: ACMMM<br>
+	Journal Reviewer: TPAMI, TMM, TIP, Neural Computing<br>
+		<!-- <br /> -->
+	<p style="clear:both">&nbsp;</p>
+
+</div>
+
+<br><br>
+<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
